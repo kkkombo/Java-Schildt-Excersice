@@ -9,8 +9,8 @@ public class QuicksortDemo {
     {
         int i, j;
         char x, y;
-        i = left; j = right;
         System.out.println("Left: " + left + " and right: " + right + ".");
+        i = left; j = right;
         x = items[(left+right)/2];
         System.out.println("x is " + x + ".");
         do {
@@ -45,14 +45,14 @@ class QSDemo {
         int i;
 
         System.out.print("Original array: ");
-        for(i=0; i < a.length; i++)
+        for (i = 0; i < a.length; i++)
             System.out.print(a[i]);
         System.out.println();
 
         // Sorting the array.
         QuicksortDemo.qsort(a);
         System.out.print("Sorted array: ");
-        for(i=0; i < a.length; i++)
+        for (i = 0; i < a.length; i++)
             System.out.print(a[i]);
     }
 }
