@@ -12,7 +12,7 @@ public class EnumeratorMethods {
         // Obtain all ordinal values using ordinal().
         System.out.println("Here are all Transport constants" +
                 " and their ordinal values: ");
-        for (Transport t : Transport.values()) System.out.println(t + " " + t.ordinal());
+        for (TransportMethods t : TransportMethods.values()) System.out.println(t + " " + t.ordinal());
         tp = TransportMethods.AIRPLANE;
         tp2 = TransportMethods.TRAIN;
         tp3 = TransportMethods.AIRPLANE;
